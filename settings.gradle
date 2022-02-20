@@ -1,0 +1,2 @@
+rootProject.name = "SaludadorPrac-App"
+include ':app'
