@@ -4,40 +4,49 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/black"
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView6"
-        android:layout_width="98dp"
-        android:layout_height="39dp"
-        android:layout_alignEnd="@+id/editTextTextPersonName5"
-        android:layout_alignBottom="@+id/editTextTextPersonName5"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="32dp"
-        android:text="Hello World!"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="16dp" />
+        android:id="@+id/textView8"
+        android:layout_width="190dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="40dp"
+        android:text="Escribe tu nombre"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName5"
-        android:layout_width="171dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
+        android:id="@+id/etNombre"
+        android:layout_width="209dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="452dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="114dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="152dp"
+        android:layout_height="44dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="452dp"
+        android:text="Soy Desarrollador"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/ubSaludar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/editTextTextPersonName5"
-        android:layout_alignBottom="@+id/editTextTextPersonName5"
-        android:text="Button"
-        tools:layout_editor_absoluteX="229dp"
-        tools:layout_editor_absoluteY="114dp" />
-
+        android:layout_marginBottom="64dp"
+        android:text="SALUDAR"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.53"
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
