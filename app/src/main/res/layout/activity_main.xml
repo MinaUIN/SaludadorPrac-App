@@ -6,40 +6,38 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-        <TextView
-            android:id="@+id/textView6"
-            android:layout_width="98dp"
-            android:layout_height="39dp"
-            android:layout_alignEnd="@+id/editTextTextPersonName5"
-            android:layout_alignBottom="@+id/editTextTextPersonName5"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="37dp"
-            android:layout_marginEnd="57dp"
-            android:layout_marginBottom="-31dp"
-            android:text="Hello World!"
-            tools:layout_editor_absoluteX="172dp"
-            tools:layout_editor_absoluteY="285dp" />
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="98dp"
+        android:layout_height="39dp"
+        android:layout_alignEnd="@+id/editTextTextPersonName5"
+        android:layout_alignBottom="@+id/editTextTextPersonName5"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="32dp"
+        android:text="Hello World!"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="16dp" />
 
-        <EditText
-            android:id="@+id/editTextTextPersonName5"
-            android:layout_width="171dp"
-            android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:layout_marginTop="122dp"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Name" />
+    <EditText
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="114dp" />
 
-        <Button
-            android:id="@+id/button4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignEnd="@+id/editTextTextPersonName5"
-            android:layout_alignBottom="@+id/editTextTextPersonName5"
-            android:layout_marginEnd="-157dp"
-            android:layout_marginBottom="-5dp"
-            android:text="Button" />
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editTextTextPersonName5"
+        android:layout_alignBottom="@+id/editTextTextPersonName5"
+        android:text="Button"
+        tools:layout_editor_absoluteX="229dp"
+        tools:layout_editor_absoluteY="114dp" />
 
-    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
